@@ -106,3 +106,6 @@ RUN mkdir ~/behat && \
         "behat/mink-extension:^2.2" \
         "behat/mink-goutte-driver:^1.2" \
         "drupal/drupal-extension:*"
+
+# Install Grunt
+RUN npm install -g grunt-cli
